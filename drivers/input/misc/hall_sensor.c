@@ -364,6 +364,8 @@ static int __devinit hall_sensor_probe(struct platform_device *pdev)
 		return 0;
 	}
 
+	switch_set_state(&cover_switch, hl->gpio_att ? 0 : 1);
+
 	g_hl = hl;
 
 	HL_LOG("------------------");
