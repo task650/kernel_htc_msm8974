@@ -1,2 +1,0 @@
-
-#include <plat/irqs.h>

@@ -1,2 +1,0 @@
-
-#include <plat/uncompress.h>
